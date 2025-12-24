@@ -3,6 +3,8 @@
 A simple React app to demonstrate gRPC concepts. Connects to the
 [gRPC Pet Server](https://github.com/nareshbhatia/grpc-pet-server).
 
+![Screenshot](assets/screenshot.png)
+
 ## Prerequisites for development
 
 1. Install [Node Version Manager](https://github.com/nvm-sh/nvm) (nvm). It
