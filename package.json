@@ -1,0 +1,46 @@
+{
+  "name": "grpc-pet-ui",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "clean": "rimraf node_modules dist",
+    "dev": "vite",
+    "fix": "run-s _lint:fix _format:fix",
+    "lint": "run-s _lint _format",
+    "preview": "vite preview",
+    "_format": "prettier --list-different '*.{js,ts,json,md}' 'src/**/*.{css,js,jsx,ts,tsx,json,md}'",
+    "_format:fix": "npm run _format -- --write",
+    "_lint": "eslint .",
+    "_lint:fix": "npm run _lint -- --fix"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.561.0",
+    "radix-ui": "^1.4.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router": "^7.10.1",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.18",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@code-shaper/eslint-config": "^2.*",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitejs/plugin-react": "^5.1.2",
+    "eslint": "^8.57.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.7.4",
+    "rimraf": "^6.1.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.0"
+  }
+}
