@@ -1,6 +1,7 @@
 # gRPC Pet UI
 
-A simple React app to demonstrate gRPC concepts. Connects to the [gRPC Pet Server](https://github.com/nareshbhatia/grpc-pet-server).
+A simple React app to demonstrate gRPC concepts. Connects to the
+[gRPC Pet Server](https://github.com/nareshbhatia/grpc-pet-server).
 
 ## Prerequisites for development
 
@@ -8,7 +9,9 @@ A simple React app to demonstrate gRPC concepts. Connects to the [gRPC Pet Serve
    allows using different versions of node via the command line
 2. Run `nvm use` to use the required version of node.
 3. Run `pnpm i` to install required packages.
-4. Make sure that [gRPC Pet Server](https://github.com/nareshbhatia/grpc-pet-server) is running on port 8080 (`go run server/main.go`).
+4. Make sure that
+   [gRPC Pet Server](https://github.com/nareshbhatia/grpc-pet-server) is running
+   on port 8080 (`go run server/main.go`).
 
 ## Development Build
 

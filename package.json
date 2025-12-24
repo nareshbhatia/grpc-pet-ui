@@ -16,14 +16,19 @@
     "_lint:fix": "npm run _lint -- --fix"
   },
   "dependencies": {
+    "@bufbuild/protobuf": "^2.10.2",
+    "@connectrpc/connect": "^2.1.1",
+    "@connectrpc/connect-web": "^2.1.1",
+    "@nareshbhatia/grpc-pet-server": "^0.0.1",
     "@tailwindcss/vite": "^4.1.18",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.561.0",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.562.0",
     "radix-ui": "^1.4.3",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-router": "^7.10.1",
+    "react-router": "^7.11.0",
     "tailwind-merge": "^3.4.0",
     "tailwindcss": "^4.1.18",
     "tailwindcss-animate": "^1.0.7"
